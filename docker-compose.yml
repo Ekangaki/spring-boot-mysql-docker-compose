@@ -10,7 +10,7 @@ services:
       - mysqldb
     volumes:
       - /data/springboot-app
-    
+
   mysqldb:
     image: mysql:5.7
     networks:
@@ -20,5 +20,6 @@ services:
       - MYSQL_DATABASE=sbms
     volumes:
       - /data/mysql
+
 networks:
   springboot-db-net:
