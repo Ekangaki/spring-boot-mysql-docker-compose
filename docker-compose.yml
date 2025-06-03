@@ -1,7 +1,7 @@
 version: "3"
 services:
   application:
-    image: ekangaki/spring-boot-mysql-docker-compose:latest
+    image: ekangaki/spring-boot-mysql-docker-compose:v1
     ports:
       - "8080:8080"
     networks:
